@@ -101,7 +101,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             self.totalDistance += (currentLocation?.distance(from: location!))!
             currentDistance.text = String(format: "%.2f", totalDistance)
             self.totalsplitDistance += (currentLocation?.distance(from: location!))!
-            splitDistance.text = String(format: "%.2f", totalsplitDistance)
+//            splitDistance.text = String(format: "%.2f", totalsplitDistance)
         }
         location = currentLocation
     }

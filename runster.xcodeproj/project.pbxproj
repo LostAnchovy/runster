@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42873C72011ADCC00EE0C2B /* runnster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42873C62011ADCC00EE0C2B /* runnster.jpg */; };
 		D42C3A062011759A00630B0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C3A052011759A00630B0F /* AppDelegate.swift */; };
 		D42C3A082011759A00630B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C3A072011759A00630B0F /* ViewController.swift */; };
 		D42C3A0B2011759A00630B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42C3A092011759A00630B0F /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		D42C3A132011759A00630B0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42C3A112011759A00630B0F /* LaunchScreen.storyboard */; };
 		D42C3A1E2011759B00630B0F /* runsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C3A1D2011759B00630B0F /* runsterTests.swift */; };
 		D42C3A292011759B00630B0F /* runsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C3A282011759B00630B0F /* runsterUITests.swift */; };
-		D42C3A382011779000630B0F /* runnster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D42C3A372011779000630B0F /* runnster.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C42873C62011ADCC00EE0C2B /* runnster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = runnster.jpg; path = ../../../.Trash/runnster.jpg; sourceTree = "<group>"; };
 		D42C3A022011759A00630B0F /* runster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42C3A052011759A00630B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D42C3A072011759A00630B0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		D42C3A242011759B00630B0F /* runsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42C3A282011759B00630B0F /* runsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = runsterUITests.swift; sourceTree = "<group>"; };
 		D42C3A2A2011759B00630B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D42C3A372011779000630B0F /* runnster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = runnster.jpg; path = ../../../../../Downloads/runnster.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				D42C3A092011759A00630B0F /* Main.storyboard */,
 				D42C3A0F2011759A00630B0F /* Assets.xcassets */,
 				D42C3A112011759A00630B0F /* LaunchScreen.storyboard */,
-				D42C3A372011779000630B0F /* runnster.jpg */,
+				C42873C62011ADCC00EE0C2B /* runnster.jpg */,
 				D42C3A142011759A00630B0F /* Info.plist */,
 				D42C3A0C2011759A00630B0F /* runster.xcdatamodeld */,
 			);
@@ -238,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D42C3A382011779000630B0F /* runnster.jpg in Resources */,
 				D42C3A132011759A00630B0F /* LaunchScreen.storyboard in Resources */,
 				D42C3A102011759A00630B0F /* Assets.xcassets in Resources */,
+				C42873C72011ADCC00EE0C2B /* runnster.jpg in Resources */,
 				D42C3A0B2011759A00630B0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
